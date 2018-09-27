@@ -12,8 +12,12 @@ package com.indigo.christian;
 public class PalindromicNumber {
 
 	public static void main(String[] args) {
+		//class instance
 		PalindromicNumber p = new PalindromicNumber();
+		//unit tests
+		//test case 1  T = 10, N = 100
 		p.largestPalindrome(10, 100);
+		//test case 2  T = 10, N = 1000
 		p.largestPalindrome(10, 1000);
 	}
 public void largestPalindrome(int t, int n) {
