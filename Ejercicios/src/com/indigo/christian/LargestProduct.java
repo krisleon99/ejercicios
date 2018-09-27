@@ -20,8 +20,11 @@ public class LargestProduct {
         System.out.println(largestProduct);
 	}
 	public static void main(String[] args) {
+		//class instance
 		LargestProduct product = new LargestProduct();
+		//test case 1 k = 5, N = 3675356291
 		product.searchNumber(5, "3675356291");
+		//test case 2 k = 5, N = 2709360626
 		product.searchNumber(5, "2709360626");
 	    }
 }
